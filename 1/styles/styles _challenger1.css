@@ -1,0 +1,48 @@
+body{
+    /*!background-color: black;*/
+    background: url(oip.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Julee', cursive;
+    background-attachment: fixed;  
+    background-size: cover;  
+}
+
+header{
+    background: black;
+    padding: 20px 0;
+}
+
+.logo{
+    display: flex;
+    width: 100px;
+    height: 92px;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: red ;
+    
+
+}
+
+form{
+    padding: 40px   0;
+}
+
+form label{
+    font-size: 40px;
+    left: 100px;
+    display: block;
+    padding-left: 200px;
+
+}
+
+.input-patron{
+    margin: 0 0 20px;
+    width: 50%;
+
+}
