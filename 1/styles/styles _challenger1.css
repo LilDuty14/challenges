@@ -9,7 +9,7 @@ body{
 
 header{
     background: black;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo{
@@ -22,27 +22,98 @@ header{
 }
 
 h1{
+    margin-bottom: 10px;
     text-align: center;
     font-size: 80px;
     color: red ;
-    
-
 }
 
-form{
-    padding: 40px   0;
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 25px;
 }
 
-form label{
+h2{
+    padding: 10px 10px;
+    margin: 5px 10px;
     font-size: 40px;
-    left: 100px;
-    display: block;
-    padding-left: 200px;
-
 }
 
-.input-patron{
-    margin: 0 0 20px;
-    width: 50%;
+.area{
+    font-family: 'Julee', cursive;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    margin-top: 10px;
+}
 
+.area:focus{
+    outline: none;
+}
+
+.mensaje{
+    background-image: url(oip2.jpg);
+    font-family: 'Julee', cursive;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    margin-top: 70px;
+    margin-left: 200px;
+    padding-left: 40px;
+    
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+
+
+.btn-encriptar{
+    background-color:rgb(116, 2, 2);
+    border: 1px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background-color:black;
+    border: 1px solid red;
+    border-radius: 24px;
+    color: rgb(116, 2, 2);
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.Copiar{
+    border: 1px solid black;
+    border-radius: 24px;
+    color: black;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 220px;
+    margin-top: 50px;
+    position:absolute;
+    width: 336px;
+}
+
+.informacion{
+    margin: 10px 10px;
+    color: red;
+    font-size: 18px;
+}
+
+.copyright{
+    color: dark;
+    font-size: 30px;
+    margin:20px;
+    text-align: center;
 }
